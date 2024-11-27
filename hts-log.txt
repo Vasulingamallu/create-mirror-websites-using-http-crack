@@ -1,0 +1,21 @@
+HTTrack3.49-2+htsswf+htsjava launched on Wed, 27 Nov 2024 11:23:48 at http://che.uop.edu.pk +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://che.uop.edu.pk -O1 "C:\My Web Sites\che.uop.edu.pk" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+11:23:48	Warning: 	Note: due to che.uop.edu.pk remote robots.txt rules, links beginning with these path will be forbidden: /admin/, /results/, /merit/, /operator/, /img/, /downloads/, /css/, /js/, /PHPMailer-master/, /inc_waiting_list.php, /inc_social.php, /inc_slider.php, /inc_settings2.php, /inc_settings.php, /inc_results_one.php, /inc_results_marks.php, /inc_results_gpa.php, /inc_programs_workshops.php, /inc_programs_visits_organized.php, /inc_programs_trainings.php, /inc_programs_talks.php, /inc_programs_study_leaves.php, /inc_programs_social_events.php, /inc_programs_seminars.php, /inc_programs_research_publications.php, /inc_programs_promotions.php, /inc_programs_memberships.php, /inc_programs_higher_qualifications.php, /inc_programs_hec_recognized_supervisors.php, /inc_programs_extension_lectures.php, /inc_programs_exhibitions.php, /inc_programs_educational_trips.php, /inc_programs_editorships.php, /inc_programs_conferences.php, /inc_programs_competitions.php, /inc_programs_certificate_courses_offered.php, /inc_programs_book_reviews.php, /inc_programs_awards.php, /inc_programs_achievements.php, /inc_newsupdates.php, /inc_merit_list.php, /inc_menu.php, /inc_header.php, /inc_footer.php, /inc_db.php, /inc_datesheet_one.php, /contact-send.php, /alumni-profilection.php, /alumni-regaction.php, /alumni-logout.php, /alumni-loginaction.php, /alumni-forgotaction.php, /faculty-profilection.php, /faculty-logout.php, /faculty-loginaction.php, /faculty-forgotaction.php (see in the options to disable this)
+11:31:20	Warning: 	Retry after error 500 (Internal Server Error) at link che.uop.edu.pk/activities-Seminars.php (from che.uop.edu.pk/activities-seminars.php)
+11:31:25	Warning: 	Retry after error 500 (Internal Server Error) at link che.uop.edu.pk/Www.uop.edu.pk (from che.uop.edu.pk/announcements.php)
+11:31:25	Warning: 	Retry after error 500 (Internal Server Error) at link che.uop.edu.pk/Facebook (from che.uop.edu.pk/announcements.php)
+11:32:00	Warning: 	Retry after error 500 (Internal Server Error) at link che.uop.edu.pk/activities-Seminars.php (from che.uop.edu.pk/activities-seminars.php)
+11:32:00	Warning: 	Retry after error 500 () at link che.uop.edu.pk/Www.uop.edu.pk (from che.uop.edu.pk/announcements.php)
+11:32:00	Warning: 	Retry after error 500 (Internal Server Error) at link che.uop.edu.pk/Facebook (from che.uop.edu.pk/announcements.php)
+11:32:05	Error: 	"Internal Server Error" (500) after 2 retries at link che.uop.edu.pk/activities-Seminars.php (from che.uop.edu.pk/activities-seminars.php)
+11:32:05	Error: 	"" (500) after 2 retries at link che.uop.edu.pk/Www.uop.edu.pk (from che.uop.edu.pk/announcements.php)
+11:32:05	Error: 	"Internal Server Error" (500) after 2 retries at link che.uop.edu.pk/Facebook (from che.uop.edu.pk/announcements.php)
+
+HTTrack Website Copier/3.49-2 mirror complete in 8 minutes 18 seconds : 444 links scanned, 434 files written (13904620 bytes overall) [13643750 bytes received at 27397 bytes/sec], 504568 bytes transferred using HTTP compression in 2 files, ratio 24%, 3.1 requests per connection
+(3 errors, 7 warnings, 0 messages)

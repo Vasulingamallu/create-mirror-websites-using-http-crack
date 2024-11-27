@@ -1,0 +1,4 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+che.uop.edu.pk	TRUE	/	FALSE	1999999999	PHPSESSID	460uudrtmgrbp3trl1vpga9i13
+
