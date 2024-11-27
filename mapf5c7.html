@@ -1,0 +1,46 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<!-- Mirrored from www.hotelone.com.pk/map.php?title=Hotel%20One%20Jinnah%20I-9%20Islamabad&lat=33.6565768&long=73.0554648 by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 27 Nov 2024 05:50:58 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <!-- AIzaSyCx26eqW2d-BQ8ec3_GKntEl3kOwoEBX7E -->
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAIIQdddH9W39JxLGENzoj65TksvB_comY&amp;callback=initMap&amp;language=en&amp;region=uk"></script>
+	<script type="text/javascript">
+	function initialize() {
+		var latlng = new google.maps.LatLng(33.6565768,73.0554648);
+		var isDraggable = !('ontouchstart' in document.documentElement);
+		var myOptions = {
+			zoom:15,
+			center:latlng,
+			draggable: isDraggable,
+			scrollwheel: false,
+			mapTypeId:google.maps.MapTypeId.ROADMAP,
+			mapTypeControl: true,
+			mapTypeControlOptions: {
+				style: google.maps.MapTypeControlStyle.HORIZONTAL_BAR,
+				position: google.maps.ControlPosition.TOP_RIGHT
+			},
+			navigationControl: true,
+			navigationControlOptions: {
+				style: google.maps.NavigationControlStyle.ANDROID,
+				position: google.maps.ControlPosition.BOTTOM
+			}
+		};
+		var map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
+		var image = 'images/marker.png';		
+		var marker = new google.maps.Marker({position: latlng, map: map, icon: image, title:"Hotel One Jinnah I-9 Islamabad"});
+		
+		var infowindow = new google.maps.InfoWindow({content: contentString, maxWidth:250});
+		google.maps.event.addListener(marker, 'mouseover', function() {infowindow.open(map,marker);});
+	}
+	</script>
+</head>
+<body onLoad="initialize()" style="margin:0; padding:0;">
+<div id="map_canvas" style="width:100%; height:100%"></div>
+</body>
+
+<!-- Mirrored from www.hotelone.com.pk/map.php?title=Hotel%20One%20Jinnah%20I-9%20Islamabad&lat=33.6565768&long=73.0554648 by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 27 Nov 2024 05:50:58 GMT -->
+</html>
